@@ -16,3 +16,8 @@ li {
     list-style-type: none;
     padding: 5px 5px;
 }
+
+.link_style {
+    text-decoration: none;
+    color: #14a098;
+}

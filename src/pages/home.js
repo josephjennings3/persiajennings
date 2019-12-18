@@ -3,8 +3,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import '../css/home.css';
 import modelpersia from '../imgs/modelpersia.jpg';
-import babypersia from '../imgs/babypersia.jpg';
-import babypersia2 from '../imgs/babypersia2.jpg';
+import greendress from '../imgs/greendress.jpg';
+import leaning from '../imgs/leaning.jpg';
+import overalls from '../imgs/overalls.jpg';
+import look from '../imgs/look.jpg';
+import flowerdress from '../imgs/flowerdress.jpg';
+import flowergirl from '../imgs/flowergirl.jpg';
+
 
 class Home extends Component {
     render() {
@@ -14,19 +19,30 @@ class Home extends Component {
                     <Carousel className=".carousel_style">
                         <div>
                             <img src={modelpersia} />
-                            <p className="legend">Legend 1</p>
                         </div>
                         <div>
-                            <img src={babypersia} />
-                            <p className="legend">Legend 2</p>
+                            <img src={greendress} />
                         </div>
                         <div>
-                            <img src={babypersia2} />
-                            <p className="legend">Legend 3</p>
+                            <img src={leaning} />
+                        </div>
+                        <div>
+                            <img src={overalls} />
+                        </div>
+                        <div>
+                            <img src={look} />
+                        </div>
+                        <div>
+                            <img src={flowerdress} />
+                        </div>
+                        <div>
+                            <img src={flowergirl} />
                         </div>
                     </Carousel>
                 </div>
-                <h1>Home</h1>
+                <div className="home_text">
+                    <h1>Greatest Child Ever Created</h1>
+                </div>
             </div>
         )
     }

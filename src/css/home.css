@@ -30,6 +30,11 @@
     text-align: center;
 }
 
+.home_text {
+    width: 70%;
+    margin: auto;
+}
+
 .banner {
     display: flex;
     flex-direction: row;
@@ -47,6 +52,12 @@
 .icon_box img {
     width: 50%;
     margin: auto;
+}
+
+.youtube_container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 

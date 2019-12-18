@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header';
+import Footer from './components/footer';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/home.js';
 import Stats from './pages/stats.js';
@@ -20,6 +21,7 @@ function App() {
           <Route exact path= '/pages/gallery'  component={Gallery} />
           <Route exact path= '/pages/dedication'  component={Dedication} />
         </Switch>
+        <Footer />
       </div> 
     </div>
   );

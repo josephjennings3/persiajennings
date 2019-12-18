@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #0f292f;
+    color: #14a098;
+    align-items: center;
+}
+
+.header_list ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 5px;
+}
+
+.link_style {
+    text-decoration: none;
+    color: #14a098;
+}

@@ -1,3 +1,8 @@
+.home {
+    background-color: #501f3a;
+    color: #cb2d6f;
+}
+
 /* .carousel .thumb img {
     width: 100% !important;
     height: 100% !important;
@@ -8,7 +13,41 @@
 }
 
 .carousel .slide img {
-    max-height: 700px;  
+    max-height: 600px;  
     width: auto;
 }
+
+.home_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 75%;
+    margin: auto;
+}
+
+.home_header {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+
+.icon_box {
+    width: 33.3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon_box img {
+    width: 50%;
+    margin: auto;
+}
+
+
 

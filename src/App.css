@@ -11,3 +11,8 @@ p {
   text-indent: 1.5em;
 }
 
+.link_style {
+  text-decoration: none;
+  color: #14a098;
+}
+

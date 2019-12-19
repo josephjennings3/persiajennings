@@ -16,7 +16,7 @@ function App() {
       <Header />
       <div className="content-wrap">
       <Switch>
-          <Route exact path= '/pages/home'  component={Home} />
+          <Route exact path= '/'  component={Home} />
           <Route exact path= '/pages/stats'  component={Stats} />
           <Route exact path= '/pages/gallery'  component={Gallery} />
           <Route exact path= '/pages/dedication'  component={Dedication} />

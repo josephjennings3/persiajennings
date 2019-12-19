@@ -14,7 +14,7 @@ class Header extends Component {
             <div className="header_list">
                 <ul>
                     <li>
-                        <NavLink className="link_style" to ='/pages/home' exact 
+                        <NavLink className="link_style" to ='/' exact 
                         activeStyle={
                                 {borderTop: 'solid 3px #cb2d6f'}}>Home</NavLink>
                     </li>
